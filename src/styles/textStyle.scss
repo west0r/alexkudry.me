@@ -1,0 +1,96 @@
+/* Typography */
+
+:root {
+  /* Font Family */
+  --font-family-rubik: 'Rubik', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Font Weights */
+  --font-light: 300;
+  --font-regular: 400;
+  
+  /* Font Sizes - Desktop */
+  --font-size-h1-desktop: 60px;
+  --font-size-h2-desktop: 38px;
+  --font-size-body: 16px;
+  --font-size-accent: 16px;
+  
+  /* Font Sizes - Mobile */
+  --font-size-h1-mobile: 48px;
+  --font-size-h2-mobile: 32px;
+  
+  /* Line Heights */
+  --line-height-h1-desktop: 60px;
+  --line-height-h2-desktop: 44px;
+  --line-height-body: 20px;
+  --line-height-accent: 20px;
+  --line-height-h1-mobile: 50px;
+  --line-height-h2-mobile: 38px;
+  
+  /* Letter Spacing */
+  --letter-spacing-h1-desktop: -3.6%;
+  --letter-spacing-h2-desktop: 0;
+  --letter-spacing-h1-mobile: -5.5%;
+  --letter-spacing-h2-mobile: -2%;
+  --letter-spacing-body: 0;
+  --letter-spacing-accent: 0;
+}
+
+/* Base Typography Styles */
+.body {
+  font-family: var(--font-family-rubik);
+  font-weight: var(--font-light);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-body);
+}
+
+/* Accent Text */
+.text-accent {
+  font-size: var(--font-size-accent);
+  font-weight: var(--font-regular);
+  line-height: var(--line-height-accent);
+  letter-spacing: var(--letter-spacing-accent)
+}
+
+/* Desktop Headings */
+@media screen and (min-width: 768px) {
+  h1, .h1-desktop {
+    font-size: var(--font-size-h1-desktop);
+    line-height: var(--line-height-h1-desktop);
+    letter-spacing: var(--letter-spacing-h1-desktop);
+    font-weight: var(--font-light);
+  }
+  
+  h2, .h2-desktop {
+    font-size: var(--font-size-h2-desktop);
+    line-height: var(--line-height-h2-desktop);
+    letter-spacing: var(--letter-spacing-h2-desktop);
+    font-weight: var(--font-light);
+  }
+}
+
+/* Mobile Headings */
+@media screen and (max-width: 767px) {
+  h1, .h1-mobile {
+    font-size: var(--font-size-h1-mobile);
+    line-height: var(--line-height-h1-mobile);
+    letter-spacing: var(--letter-spacing-h1-mobile);
+    font-weight: var(--font-light);
+  }
+  
+  h2, .h2-mobile {
+    font-size: var(--font-size-h2-mobile);
+    line-height: var(--line-height-h2-mobile);
+    letter-spacing: var(--letter-spacing-h2-mobile);
+    font-weight: var(--font-light);
+  }
+}
+
+/* Utility Classes */
+.font-light {
+  font-weight: var(--font-light);
+}
+
+.font-regular {
+  font-weight: var(--font-regular);
+}

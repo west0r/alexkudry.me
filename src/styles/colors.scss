@@ -1,0 +1,100 @@
+/* Color Design System */
+
+:root {
+  /* Primary Text Colors */
+  --color-primary-text-default: #232E21;
+  --color-primary-text-hover: #656D64;
+  --color-primary-text-pressed: #232E21;
+  
+  /* Secondary Text Colors with Opacity */
+  --color-secondary-text: rgba(5, 8, 29, 0.4); /* #05081D with 40% opacity */
+  
+  /* Accent Text Colors */
+  --color-accent-text-default: #26408B;
+  --color-accent-text-hover: #6779AE;
+  --color-accent-text-pressed: #26408B;
+  
+  /* Background Colors */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F2F3F5;
+}
+
+/* Dark Mode Colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Primary Text Colors - Inverted */
+    --color-primary-text-default: #FEFEFE;
+    --color-primary-text-hover: #EBEBEB;
+    --color-primary-text-pressed: #FEFEFE;
+    
+    /* Secondary Text Colors - Inverted */
+    --color-secondary-text: rgba(233, 233, 250, 0.37); /* #E9E9FA with 37% opacity */
+    
+    /* Accent Text Colors - Inverted */
+    --color-accent-text-default: #3F62CA;
+    --color-accent-text-hover: #5F7CD3;
+    --color-accent-text-pressed: #3F62CA;
+    
+    /* Background Colors - Inverted */
+    --color-bg-primary: #121213;
+    --color-bg-secondary: #1C1C1E;
+  }
+}
+
+/* Utility Classes for Text Colors */
+.text-primary {
+  color: var(--color-primary-text-default);
+}
+
+.text-primary:hover {
+  color: var(--color-primary-text-hover);
+}
+
+.text-primary:active {
+  color: var(--color-primary-text-pressed);
+}
+
+.text-secondary {
+  color: var(--color-secondary-text);
+}
+
+.text-accent {
+  color: var(--color-accent-text-default);
+}
+
+.text-accent:hover {
+  color: var(--color-accent-text-hover);
+}
+
+.text-accent:active {
+  color: var(--color-accent-text-pressed);
+}
+
+/* Utility Classes for Background Colors */
+.bg-primary {
+  background-color: var(--color-bg-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-bg-secondary);
+}
+
+/* Alternative Dark Mode Toggle Class */
+[data-theme="dark"] {
+  /* Primary Text Colors - Inverted */
+  --color-primary-text-default: #FEFEFE;
+  --color-primary-text-hover: #EBEBEB;
+  --color-primary-text-pressed: #FEFEFE;
+  
+  /* Secondary Text Colors - Inverted */
+  --color-secondary-text: rgba(233, 233, 250, 0.37);
+  
+  /* Accent Text Colors - Inverted */
+  --color-accent-text-default: #3F62CA;
+  --color-accent-text-hover: #5F7CD3;
+  --color-accent-text-pressed: #3F62CA;
+  
+  /* Background Colors - Inverted */
+  --color-bg-primary: #121213;
+  --color-bg-secondary: #1C1C1E;
+}

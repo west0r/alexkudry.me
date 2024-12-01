@@ -1,0 +1,68 @@
+/* CardEducation base styles */
+.CardEducation {
+  background-color: var(--color-bg-secondary);
+  border-radius: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Desktop version */
+.CardEducation--Desktop {
+  padding: 32px;
+  border-radius: 32px;
+}
+
+.CardEducation--Desktop__topGroup {
+  width: 100%;
+}
+
+.CardEducation--Desktop__labelGroup {
+  margin-bottom: 12px;
+}
+
+.CardEducation--Desktop__date {
+  @extend .text-secondary;
+  @extend .body;
+  margin-bottom: 4px;
+}
+
+.CardEducation--Desktop__title {
+  @extend .text-primary;
+  @extend .body;
+}
+
+/* ButtonLink in Desktop */
+.CardEducation--Desktop .ButtonLink {
+  width: 100%;
+  text-align: left;
+}
+
+/* Mobile version */
+.CardEducation--Mobile {
+  padding: 24px;
+}
+
+.CardEducation--Mobile__topGroup {
+  width: 100%;
+}
+
+.CardEducation--Mobile__labelGroup {
+  margin-bottom: 12px;
+}
+
+.CardEducation--Mobile__date {
+  @extend .text-secondary;
+  @extend .body;
+  margin-bottom: 4px;
+}
+
+.CardEducation--Mobile__title {
+  @extend .text-primary;
+  @extend .body;
+}
+
+/* ButtonLink in Mobile */
+.CardEducation--Mobile .ButtonLink {
+  width: 100%;
+  text-align: left;
+}

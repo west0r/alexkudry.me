@@ -1,0 +1,55 @@
+/* CardKnowledge base styles */
+.CardKnowledge {
+  background-color: var(--color-bg-secondary);
+  border-radius: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* CardKnowledge--Desktop */
+.CardKnowledge--Desktop {
+  display: flex;
+  gap: 32px;
+  padding: 32px;
+}
+
+.CardKnowledge--Desktop__label {
+  @extend .h2-desktop;
+  @extend .text-secondary;
+  margin-bottom: 12px;
+}
+
+.CardKnowledge--Desktop__title {
+  @extend .h2-desktop;
+  @extend .text-primary;
+  margin: 0;
+}
+
+.CardKnowledge--Desktop__group {
+  flex: 1;
+}
+
+/* CardKnowledge--Mobile */
+.CardKnowledge--Mobile {
+  padding: 24px;
+}
+
+.CardKnowledge--Mobile__label {
+  @extend .h2-mobile;
+  @extend .text-secondary;
+  margin-bottom: 8px;
+}
+
+.CardKnowledge--Mobile__title {
+  @extend .h2-mobile;
+  @extend .text-primary;
+  margin: 0;
+}
+
+.CardKnowledge--Mobile__group {
+  margin-bottom: 24px;
+}
+
+.CardKnowledge--Mobile__group:last-child {
+  margin-bottom: 0;
+}

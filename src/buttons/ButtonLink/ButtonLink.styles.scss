@@ -1,0 +1,33 @@
+/* ButtonLink base styles */
+.ButtonLink {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+    color: var(--color-accent-text-default);
+  }
+  
+  /* Width variants */
+  .ButtonLink--hug {
+    width: fit-content;
+  }
+  
+  .ButtonLink--fill {
+    width: 100%;
+  }
+  
+  /* States */
+  .ButtonLink:hover {
+    color: var(--color-accent-text-hover);
+  }
+  
+  .ButtonLink:active {
+    color: var(--color-accent-text-pressed);
+  }
+  
+  /* Disabled state */
+  .ButtonLink[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }

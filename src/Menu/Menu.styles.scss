@@ -1,0 +1,33 @@
+/* MenuDesktop styles */
+.MenuDesktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 120px;
+  background-color: var(--color-bg-primary);
+}
+
+.MenuDesktop__leftButtons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  width: fit-content;
+}
+
+/* MenuMobile styles */
+.MenuMobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 8px;
+  background-color: var(--color-bg-primary);
+}
+
+.MenuMobile__leftButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}

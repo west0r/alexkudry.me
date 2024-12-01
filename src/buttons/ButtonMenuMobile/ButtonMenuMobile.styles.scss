@@ -1,0 +1,39 @@
+/* ButtonMenuMobile base styles */
+.ButtonMenuMobile {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.ButtonMenuMobile[data-selected="true"] {
+  color: var(--color-accent-text-default);
+}
+
+.ButtonMenuMobile[data-selected="true"]:hover {
+  color: var(--color-accent-text-hover);
+}
+
+.ButtonMenuMobile[data-selected="true"]:active {
+  color: var(--color-accent-text-pressed);
+}
+
+/* Not selected state with primary colors */
+.ButtonMenuMobile[data-selected="false"] {
+  color: var(--color-primary-text-default);
+}
+
+.ButtonMenuMobile[data-selected="false"]:hover {
+  color: var(--color-primary-text-hover);
+}
+
+.ButtonMenuMobile[data-selected="false"]:active {
+  color: var(--color-primary-text-pressed);
+}
+
+/* Disabled state */
+.ButtonMenuMobile[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
