@@ -1,1 +1,0 @@
-import { FooterDesktop, FooterMobile } from './Footer';

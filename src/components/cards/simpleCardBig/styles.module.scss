@@ -1,0 +1,18 @@
+@use '../../../styles/variables' as vars;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-8);
+  padding: var(--spacing-24);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Desktop styles */
+@media screen and (min-width: #{vars.$mobile}) {
+  .container {
+    gap: var(--spacing-12);
+    padding: var(--spacing-32);
+  }
+}

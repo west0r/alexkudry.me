@@ -1,0 +1,55 @@
+@use '../../styles/variables.scss' as vars;
+
+.text {
+    font-family: var(--font-family);
+}
+
+/* Base styles for all sizes */
+.body {
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-20);
+    font-weight: var(--font-300);
+}
+
+.h1 {
+    font-weight: var(--font-300);
+    font-size: var(--font-size-48);
+    line-height: var(--line-height-50);
+    letter-spacing: var(--letter-spacing-minus-5-5);
+}
+
+.h2 {
+    font-weight: var(--font-300);
+    font-size: var(--font-size-32);
+    line-height: var(--line-height-38);
+    letter-spacing: var(--letter-spacing-minus-2);
+}
+
+/* Desktop overrides */
+@media screen and (min-width: #{vars.$mobile}) {
+    .h1 {
+        font-size: var(--font-size-60);
+        line-height: var(--line-height-60);
+        letter-spacing: var(--letter-spacing-minus-3-6);
+    }
+
+    .h2 {
+        font-size: var(--font-size-38);
+        line-height: var(--line-height-44);
+        letter-spacing: 0;
+    }
+}
+
+/* Colors */
+.primary {
+    color: var(--color-primary-text);
+}
+
+.secondary {
+    color: var(--color-secondary-text);
+}
+
+.accent {
+    color: var(--color-primary-text);
+    font-weight: var(--font-400);
+}
