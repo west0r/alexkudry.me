@@ -1,0 +1,22 @@
+@use '../../../styles/variables' as vars;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-12);
+  padding: var(--spacing-24);
+}
+
+.topGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  width: 100%;
+}
+
+/* Desktop styles */
+@media screen and (min-width: #{vars.$mobile}) {
+  .container {
+    padding: var(--spacing-32);
+  }
+}

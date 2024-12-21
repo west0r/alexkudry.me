@@ -1,0 +1,55 @@
+@use '../../../styles/variables.scss' as vars;
+
+.overlay {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-bg-primary);
+  z-index: 99;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  pointer-events: none;
+  height: calc(100% - 56px);
+  overflow-y: auto;
+  visibility: hidden;
+
+  &[data-open="true"] {
+    transform: translateX(0);
+    pointer-events: all;
+    visibility: visible;
+  }
+}
+
+.menu {
+  width: 100%;
+  padding: 50px 8px 90px;
+  box-sizing: border-box;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+
+  button {
+    font-size: var(--font-size-48);
+    line-height: var(--line-height-50);
+    letter-spacing: var(--letter-spacing-minus-5-5);
+    padding: 4px;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: #{vars.$mobile}) {
+  .overlay {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+}

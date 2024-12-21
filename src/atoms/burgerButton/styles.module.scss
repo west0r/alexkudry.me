@@ -1,0 +1,57 @@
+.button {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.iconWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.burgerIcon,
+.crossIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+    background-color: var(--color-accent-text);
+}
+
+.burgerIcon {
+    mask-image: url('../../../assets/icons/burger.svg');
+    transform: translateY(0);
+}
+
+.crossIcon {
+    mask-image: url('../../../assets/icons/cross.svg');
+    transform: translateY(-100%);
+}
+
+.button:hover:not(:active) .burgerIcon,
+.button:hover:not(:active) .crossIcon {
+    background-color: var(--color-accent-text-hover);
+}
+
+.button:active .burgerIcon,
+.button:active .crossIcon {
+    background-color: var(--color-accent-text-pressed);
+}
+
+.selected {
+    .burgerIcon {
+        transform: translateY(100%);
+    }
+
+    .crossIcon {
+        transform: translateY(0);
+    }
+}

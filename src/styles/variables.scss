@@ -1,0 +1,82 @@
+$mobile: 768px;
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Base variables - Light Theme */
+:root {
+  /* Colors */
+  --color-primary-text: #232E21;
+  --color-primary-text-hover: #656D64;
+  --color-primary-text-pressed: #232E21;
+
+  --color-secondary-text: rgba(5, 8, 29, 0.4);
+
+  --color-accent-text: #26408B;
+  --color-accent-text-hover: #6779AE;
+  --color-accent-text-pressed: #26408B;
+
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F2F3F5;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-120: 120px;
+
+  /* Border radius */
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-24: 24px;
+  --radius-32: 32px;
+
+  /* Typography */
+  --font-family: 'Rubik', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --font-size-16: 16px;
+  --line-height-20: 20px;
+
+  --font-size-60: 60px;
+  --line-height-60: 60px;
+  --letter-spacing-minus-3-6: -3.6%;
+
+  --font-size-38: 38px;
+  --line-height-44: 44px;
+  --letter-spacing-0: 0;
+
+  --font-size-48: 48px;
+  --line-height-50: 50px;
+  --letter-spacing-minus-5-5: -5.5%;
+
+  --font-size-32: 32px;
+  --line-height-38: 38px;
+  --letter-spacing-minus-2: -2%;
+
+  /* Font weights */
+  --font-300: 300;
+  --font-400: 400;
+
+  /* Breakpoint */
+  $mobile: 768px;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary-text: #FEFEFE;
+    --color-primary-text-hover: #EBEBEB;
+    --color-primary-text-pressed: #FEFEFE;
+
+    --color-secondary-text: rgba(233, 233, 250, 0.37);
+
+    --color-accent-text: #3F62CA;
+    --color-accent-text-hover: #5F7CD3;
+    --color-accent-text-pressed: #3F62CA;
+
+    --color-bg-primary: #121213;
+    --color-bg-secondary: #1C1C1E;
+  }
+}
