@@ -1,13 +1,13 @@
 // components/anyPageWrapper/index.tsx
 import { FC, PropsWithChildren, useState } from 'react';
 import styles from './styles.module.scss';
-import {Header} from "../../global/header";
-import {InteractiveText} from "../../../atoms/interactiveText";
-import {strings} from "../../../i18n/i18n.ts";
-import {Footer} from "../../global/footer";
+import {Header} from "../../components/global/header";
+import {InteractiveText} from "../../atoms/interactiveText";
+import {strings} from "../../i18n/i18n.ts";
+import {Footer} from "../../components/global/footer";
 import {useNavigate} from "react-router-dom";
-import { LINKS } from '../../../constants/strings'
-import { ROUTES } from '../../../constants/routes';
+import { LINKS } from '../../constants/strings.ts'
+import { ROUTES } from '../../constants/routes.ts';
 
 export const AnyPageWrapper: FC<PropsWithChildren> = ({ children }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

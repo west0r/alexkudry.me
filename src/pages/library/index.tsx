@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import {AnyPageWrapper} from "../../components/templates/anyPageWrapper";
+import {AnyPageWrapper} from "../../templates/anyPageWrapper";
 
 export const LibraryPage: FC = () => {
     return (
