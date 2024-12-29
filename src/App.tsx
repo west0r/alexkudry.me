@@ -1,22 +1,23 @@
 import { useState } from 'react';
 import './App.scss'
-import {DualTextColumnsCard} from "./components/cards/dualTextColumnsCard";
-import {InteractiveText} from "./atoms/interactiveText";
-import {DatedCard} from "./components/cards/datedCard";
-import {SimpleCardBig} from "./components/cards/simpleCardBig";
-import {SimpleCardSmall} from "./components/cards/simpleCardSmall";
-import {Footer} from "./components/global/footer";
-import {Header} from "./components/global/header";
+import { DualTextColumnsCard } from "./components/cards/dualTextColumnsCard";
+import { InteractiveText } from "./atoms/interactiveText";
+import { DatedCard } from "./components/cards/datedCard";
+import { SimpleCardBig } from "./components/cards/simpleCardBig";
+import { SimpleCardSmall } from "./components/cards/simpleCardSmall";
+import { Footer } from "./components/global/footer";
+import { Header } from "./components/global/header";
+import { strings } from './i18n/i18n';
 
 const footerLinks = [
     {
-        label: 'Telegram',
+        label: strings.footer.telegram.label,
         title: '@westor',
         href: 'https://t.me/westor',
     },
     {
-        label: 'Telegram канал',
-        title: "Workin' me softly",
+        label: strings.footer.telegram.label,
+        title: strings.footer.telegram.channel,
         href: 'https://t.me/workinsoftly',
     },
 ];
@@ -30,71 +31,73 @@ function App() {
                 isMenuOpen={isMenuOpen}
                 onMenuToggle={() => setIsMenuOpen(!isMenuOpen)}
                 signUpButtonProps={{
-                    text: "Записаться на консультацию",
+                    text: strings.header.signUp,
                     onClick: () => {}
                 }}
             >
-                    <InteractiveText text="Алексей Кудрявцев" onClick={() => {}} />
-                    <InteractiveText text="Навыки и образование" onClick={() => {}} />
-                    <InteractiveText text="Цены" onClick={() => {}} />
-                    <InteractiveText text="Статьи и выступления" onClick={() => {}} />
+                <InteractiveText text={strings.header.menu.about} onClick={() => {}} />
+                <InteractiveText text={strings.header.menu.skills} onClick={() => {}} />
+                <InteractiveText text={strings.header.menu.pricing} onClick={() => {}} />
+                <InteractiveText text={strings.header.menu.articles} onClick={() => {}} />
             </Header>
 
-            <p>&nbsp;</p>
-            <DualTextColumnsCard
-                leftGroup={{
-                    label: "Проблема",
-                    title: "Неопределенность или тупик на карьерном пути. Непонятно куда, как и зачем развиваться"
-                }}
-                rightGroup={{
-                    label: "Решение",
-                    title: "Построим рабочий план развития исходя их твоих целей и ценностей"
-                }}
-            />
-            <p>&nbsp;</p>
-            <DualTextColumnsCard
-                leftGroup={{
-                    label: "Проблема",
-                    title: "Неуверенность в своей профессиональности, синдром самозванца, синдром отличника, выгорание"
-                }}
-                rightGroup={{
-                    label: "Решение",
-                    title: "Будем работать с деструктивными паттернами без осуждения"
-                }}
-            />
-            <p>&nbsp;</p>
-            <DatedCard
-                date="2011 - 2015 (~1500 часов)"
-                title="Университет Синергия"
-                subtitle="Менеджмент в социокультурной сфере — диплом специалиста"
-                onSubtitleClick={() => window.open('https://mospolytech.ru')}
-            />
-            <p>&nbsp;</p>
-            <DatedCard
-                date="03.2024 (8 часов)"
-                title="Kanban University"
-                subtitle="Kanban system improvement — сертификат"
-                onSubtitleClick={() => window.open('https://mospolytech.ru')}
-            />
-            <p>&nbsp;</p>
-            <SimpleCardBig
-                label="Методы КПТ"
-                title="Использую элементы психотерапии для работы с негативными убеждениями, когнитивными ошибками и самосаботажем"
-            />
-            <p>&nbsp;</p>
-            <SimpleCardBig
-                label="Тайм-менеджмент"
-                title="Применяю инструменты целеполагания и управления временем, чтобы управлять рабочей нагрузкой и повысить продуктивность"
-            />
-            <p>&nbsp;</p>
-            <SimpleCardSmall
-                label="Podlodka iOS Crew"
-                title="Публичное собеседование / Алексей Кудрявцев"/>
-            <p>&nbsp;</p>
-            <SimpleCardSmall
-                label="Mobius"
-                title="Интервью 'Поменять профессию и начать с 0': Александр Фоминский, Львова Елена, Алексей Кудрявцев"/>
-            <p>&nbsp;</p>
+            {/*<p>&nbsp;</p>*/}
+            {/*<DualTextColumnsCard*/}
+            {/*    leftGroup={{*/}
+            {/*        label: "Проблема",*/}
+            {/*        title: strings.problems.career.problem*/}
+            {/*    }}*/}
+            {/*    rightGroup={{*/}
+            {/*        label: "Решение",*/}
+            {/*        title: strings.problems.career.solution*/}
+            {/*    }}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
+            {/*<DualTextColumnsCard*/}
+            {/*    leftGroup={{*/}
+            {/*        label: "Проблема",*/}
+            {/*        title: strings.problems.confidence.problem*/}
+            {/*    }}*/}
+            {/*    rightGroup={{*/}
+            {/*        label: "Решение",*/}
+            {/*        title: strings.problems.confidence.solution*/}
+            {/*    }}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
+            {/*<DatedCard*/}
+            {/*    date={strings.education.synergy.duration}*/}
+            {/*    title={strings.education.synergy.title}*/}
+            {/*    subtitle={strings.education.synergy.degree}*/}
+            {/*    onSubtitleClick={() => window.open('https://mospolytech.ru')}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
+            {/*<DatedCard*/}
+            {/*    date={strings.education.kanban.duration}*/}
+            {/*    title={strings.education.kanban.title}*/}
+            {/*    subtitle={strings.education.kanban.certificate}*/}
+            {/*    onSubtitleClick={() => window.open('https://mospolytech.ru')}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
+            {/*<SimpleCardBig*/}
+            {/*    label={strings.skills.cbt.label}*/}
+            {/*    title={strings.skills.cbt.description}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
+            {/*<SimpleCardBig*/}
+            {/*    label={strings.skills.timeManagement.label}*/}
+            {/*    title={strings.skills.timeManagement.description}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
+            {/*<SimpleCardSmall*/}
+            {/*    label={strings.articles.podlodka.label}*/}
+            {/*    title={strings.articles.podlodka.title}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
+            {/*<SimpleCardSmall*/}
+            {/*    label={strings.articles.mobius.label}*/}
+            {/*    title={strings.articles.mobius.title}*/}
+            {/*/>*/}
+            {/*<p>&nbsp;</p>*/}
 
             <Footer links={footerLinks}/>
         </>
