@@ -5,9 +5,13 @@ import {Header} from "../../global/header";
 import {InteractiveText} from "../../../atoms/interactiveText";
 import {strings} from "../../../i18n/i18n.ts";
 import {Footer} from "../../global/footer";
+import {useNavigate} from "react-router-dom";
+import { LINKS } from '../../../constants/strings'
+import { ROUTES } from '../../../constants/routes';
 
 export const AnyPageWrapper: FC<PropsWithChildren> = ({ children }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const navigate = useNavigate();
 
     return (
         <div className={styles.wrapper}>
@@ -16,13 +20,16 @@ export const AnyPageWrapper: FC<PropsWithChildren> = ({ children }) => {
                 onMenuToggle={() => setIsMenuOpen(!isMenuOpen)}
                 signUpButtonProps={{
                     text: strings.header.signUp,
-                    onClick: () => {}
+                    onClick: () => window.open(LINKS.CALENDLY)
                 }}
             >
-                <InteractiveText text={strings.header.menu.about} onClick={() => {}} />
-                <InteractiveText text={strings.header.menu.skills} onClick={() => {}} />
-                <InteractiveText text={strings.header.menu.pricing} onClick={() => {}} />
-                <InteractiveText text={strings.header.menu.articles} onClick={() => {}} />
+                {Object.values(ROUTES).map(({ path, title }) => (
+                    <InteractiveText
+                        key={path}
+                        text={title}
+                        onClick={() => navigate(path)}
+                    />
+                ))}
             </Header>
 
             <main className={styles.content}>
@@ -33,12 +40,12 @@ export const AnyPageWrapper: FC<PropsWithChildren> = ({ children }) => {
                 {
                     label: strings.footer.contact.label,
                     title: strings.footer.contact.name,
-                    href: strings.footer.contact.link,
+                    href: LINKS.TELEGRAM_CONTACT,
                 },
                 {
                     label: strings.footer.channel.label,
                     title: strings.footer.channel.name,
-                    href: strings.footer.channel.link,
+                    href: LINKS.TELEGRAM_CHANNEL,
                 },
             ]} />
         </div>

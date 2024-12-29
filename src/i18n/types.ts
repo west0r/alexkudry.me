@@ -12,12 +12,10 @@ export interface LocalizedStrings {
         contact: {
             label: string;
             name: string;
-            link: string;
         };
         channel: {
             label: string;
             name: string;
-            link: string;
         };
     };
 }

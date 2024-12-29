@@ -12,14 +12,12 @@ export const ru: LocalizedStrings = {
     },
     footer: {
         contact: {
-            label: "свяжись со мной в",
+            label: "Написать мне",
             name: "Telegram",
-            link: "https://t.me/alex_kudry",
         },
         channel: {
             label: "Telegram канал",
             name: "Workin' me softly",
-            link: "https://t.me/workin_me_softly",
         }
     }
 };

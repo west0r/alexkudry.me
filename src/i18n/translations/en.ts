@@ -4,7 +4,7 @@ export const en: LocalizedStrings = {
     header: {
         signUp: "Book a consultation",
         menu: {
-            about: "Alexey Kudryavtsev",
+            about: "Alex Kudry",
             skills: "Skills & Education",
             pricing: "Pricing",
             articles: "Articles & Talks"
@@ -14,12 +14,10 @@ export const en: LocalizedStrings = {
         contact: {
             label: "Text me in",
             name: "Telegram",
-            link: "https://t.me/alex_kudry",
         },
         channel: {
             label: "Telegram channel",
             name: "Workin' me softly",
-            link: "https://t.me/workin_me_softly",
         }
     }
 };
