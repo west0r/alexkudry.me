@@ -9,9 +9,15 @@ export interface LocalizedStrings {
         };
     };
     footer: {
-        telegram: {
+        contact: {
             label: string;
-            channel: string;
+            name: string;
+            link: string;
+        };
+        channel: {
+            label: string;
+            name: string;
+            link: string;
         };
     };
 }

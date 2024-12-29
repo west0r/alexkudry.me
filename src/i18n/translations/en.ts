@@ -11,9 +11,15 @@ export const en: LocalizedStrings = {
         }
     },
     footer: {
-        telegram: {
-            label: "Telegram",
-            channel: "Workin' me softly"
+        contact: {
+            label: "Text me in",
+            name: "Telegram",
+            link: "https://t.me/alex_kudry",
+        },
+        channel: {
+            label: "Telegram channel",
+            name: "Workin' me softly",
+            link: "https://t.me/workin_me_softly",
         }
     }
 };
