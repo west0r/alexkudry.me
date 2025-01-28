@@ -1,8 +1,6 @@
 @use '../../styles/variables' as vars;
 
 .mainContainer {
-  margin-top: 200px;
-  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   gap: 140px;
@@ -40,8 +38,6 @@
 
 @media screen and (max-width: #{vars.$mobile}) {
   .mainContainer {
-    margin-top: 100px;
-    margin-bottom: 56px;
     gap: 80px;
   }
 
