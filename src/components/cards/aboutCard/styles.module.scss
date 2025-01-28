@@ -14,8 +14,9 @@
 
 .avatar {
   border-radius: var(--radius-32);
-  width: 384px;
   height: 384px;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .texts {
@@ -41,12 +42,14 @@
 }
 
 @media screen and (max-width: #{vars.$mobile}) {
-
-  .container {
-  }
-
   .content {
     flex-direction: column;
+  }
+
+  .avatar {
+    max-height: 359px;
+    aspect-ratio: 1;
+    object-fit: cover;
   }
 
   .texts {
@@ -59,5 +62,9 @@
     gap: 0;
     row-gap: var(--spacing-8);
     column-gap: var(--spacing-24);
+  }
+
+  .fact {
+    width: 167px;
   }
 }

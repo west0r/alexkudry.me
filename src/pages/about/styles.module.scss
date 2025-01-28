@@ -1,0 +1,79 @@
+@use '../../styles/variables' as vars;
+
+.mainContainer {
+  margin-top: 200px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+.requests {
+  display: grid;
+  grid-template-columns: 384px auto;
+  gap: var(--spacing-24);
+  align-items: start;
+}
+
+.requestsLeftContainer {
+  display: contents;
+}
+
+.requestsCards {
+  display: contents;
+}
+
+.requestsCards > * {
+  grid-column: 2;
+}
+
+.signUp {
+  display: block;
+  grid-row: 2;
+}
+
+@media screen and (max-width: #{vars.$mobile}) {
+  .mainContainer {
+    margin-top: 100px;
+    margin-bottom: 56px;
+    gap: 80px;
+  }
+
+  .mainText {
+    white-space: pre-line;
+  }
+
+  .requests {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24);
+  }
+
+  .requestsLeftContainer {
+    display: flex;
+    min-width: 0px;
+  }
+
+  .signUp {
+    display: none;
+  }
+
+  .requestsCards {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+  }
+}
+
+.requestsLeftContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 384px;
+  gap: 52px;
+}
