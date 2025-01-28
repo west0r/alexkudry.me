@@ -16,6 +16,8 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--spacing-32);
+  max-width: 1200px;
+  margin: 0 auto;
 
   > * {
     white-space: nowrap;
