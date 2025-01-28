@@ -64,5 +64,93 @@ export const en: LocalizedStrings = {
                 resolution: "I’ll help establish culture, implement practices like Code Review, testing, Extreme Programming, and DevOps"
             },
         ],
+    },
+    libraryPage: {
+        talksHeader: "Talks",
+        articlesHeader: "Articles",
+        talks: [
+            {
+                "title": "The Silver Bullet of Personal Efficiency (ru)",
+                "source": "Bereke Meetup",
+                "url": "https://www.youtube.com/watch?v=RwzTCLbJsRA"
+            },
+            {
+                "title": "The Mythical IDP: How to Create One and Not Be Disappointed (ru)",
+                "source": "Podlodka iOS Crew",
+                "url": "https://www.youtube.com/watch?v=T_UrVKoodPI"
+            },
+            {
+                "title": "Lifehacks for Filtering Information Noise (ru)",
+                "source": "Leo Ostrivsky YouTube",
+                "url": "https://www.youtube.com/watch?v=HJUDePK3cP0"
+            },
+            {
+                "title": "How to Learn to Rest so You Actually REST",
+                "source": "PSYvIT",
+                "url": "https://www.youtube.com/watch?v=dU4T0ufqKkk"
+            },
+            {
+                "title": "Why communications are so scary for engineers (ru)",
+                "source": "DevRel Bureau",
+                "url": "https://www.youtube.com/watch?v=K-13dcgPF2I"
+            },
+            {
+                "title": "The Perfectionist Complex Is Sabotaging Your Career (ru)",
+                "source": "SwiftBook",
+                "url": "https://www.youtube.com/watch?v=dVMwa-t0WV8"
+            },
+            {
+                "title": "Burnout in IT: How to Avoid It? (ru)",
+                "source": "SwiftBook",
+                "url": "https://www.youtube.com/watch?v=H3_079-7WCs"
+            },
+            {
+                "title": "Build a career in IT or chase the money? (ru)",
+                "source": "Victoria Borodina YouTube",
+                "url": "https://www.youtube.com/watch?v=b16v810e8ZA"
+            },
+            {
+                "title": "Career Growth for Mobile Developers (ru)",
+                "source": "YAMP 2021",
+                "url": "https://youtu.be/Wdicm1yK23g?t=9881"
+            },
+            {
+                "title": "Best engineering practices in my project (ru)",
+                "source": "Podlodka iOS Crew",
+                "url": "https://www.youtube.com/watch?v=io2Kqas0ZWU"
+            },
+            {
+                "title": "Opportunities of Static Code Analysis for iOS (ru)",
+                "source": "Podlodka iOS Crew",
+                "url": "https://www.youtube.com/watch?v=mm_T1n8gmIU&list=PLNSmyatBJig762R2R3szI-cUQYA65Btfg&index=24"
+            },
+            {
+                "title": "System Design Interview for iOS engineer (ru)",
+                "source": "Podlodka iOS Crew",
+                "url": "https://www.youtube.com/watch?v=FZUJJX-ZQsg&list=PLNSmyatBJig762R2R3szI-cUQYA65Btfg&index=5"
+            },
+            {
+                "title": "Selfmade Engineer From Zero (ru)",
+                "source": "Avito Students Talk",
+                "url": "https://www.youtube.com/watch?v=7fldzLoV3IA"
+            }
+        ],
+        articles: [
+            {
+                "title": "Who the Developer Advocate defends and how",
+                "source": "Medium",
+                "url": "https://medium.com/the-modern-scientist/who-the-developer-advocate-defends-and-how-b662924ab5df"
+            },
+            {
+                "title": "May your FPS never drop, and may your device not overheat (ru)",
+                "source": "Habr",
+                "url": "https://habr.com/en/companies/avito/articles/597417/"
+            },
+            {
+                "title": "Swift + VK.API or story about SwiftyVK (ru)",
+                "source": "Habr",
+                "url": "https://habr.com/en/articles/269741/"
+            }
+        ]
     }
 };

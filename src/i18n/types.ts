@@ -1,38 +1,52 @@
 export interface LocalizedStrings {
     header: {
-        signUp: string;
+        signUp: string
         menu: {
-            about: string;
-            skills: string;
-            pricing: string;
-            articles: string;
-        };
-    };
+            about: string
+            skills: string
+            pricing: string
+            articles: string
+        }
+    }
     footer: {
         contact: {
-            label: string;
-            name: string;
-        };
+            label: string
+            name: string
+        }
         channel: {
-            label: string;
-            name: string;
-        };
-    };
+            label: string
+            name: string
+        }
+    }
     aboutPage: {
-        name: string;
-        job: string;
-        aboutTitle: string;
-        aboutDescription: string;
+        name: string
+        job: string
+        aboutTitle: string
+        aboutDescription: string
         facts: [{
-            title: string,
+            title: string
             description: string
-        }];
-        requestsTitle: string;
-        problem: string;
-        resolution: string;
+        }]
+        requestsTitle: string
+        problem: string
+        resolution: string
         requests: [{
-            problem: string,
+            problem: string
             resolution: string
-        }];
+        }]
+    },
+    libraryPage: {
+        talksHeader: string
+        articlesHeader: string
+        talks: [{
+            "title": string
+            "source": string
+            "url": string
+        }]
+        articles: [{
+            "title": string
+            "source": string
+            "url": string
+        }]
     }
 }

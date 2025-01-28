@@ -1,0 +1,40 @@
+@use '../../styles/variables' as vars;
+
+.contentContainer {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--spacing-24);
+}
+
+.contentContainer > * {
+  width: 384px;
+}
+
+.signUpContainer {
+  margin-top: 48px;
+}
+
+.articlesHeader {
+  margin-top: 140px;
+}
+
+@media screen and (max-width: #{vars.$mobile}) {
+  .contentContainer {
+    margin-top: 24px;
+    gap: var(--spacing-8);
+  }
+
+  .contentContainer > * {
+    min-width: 100%;
+  }
+
+  .signUpContainer {
+    margin-top: 24px;
+  }
+
+  .articlesHeader {
+    margin-top: 80px;
+  }
+}
