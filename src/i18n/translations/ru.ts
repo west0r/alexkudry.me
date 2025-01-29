@@ -152,5 +152,20 @@ export const ru: LocalizedStrings = {
                 "url": "https://habr.com/en/articles/269741/"
             }
         ]
+    },
+    pricingPage: {
+        title: "Цены",
+        individualTitle: "Индивидуально",
+        companyTitle: "Компаниям",
+        individualPrices: [
+            {title: "Вводная сессия", price: "Бесплатно"},
+            {title: "1 сессия", price: "50$", subtitle: " / час"},
+            {title: "5 сессий — 225$", price: "45$", subtitle: " / час"},
+            {title: "10 сессий — 400$", price: "40$", subtitle: " / час"},
+        ],
+        companyPrices: [
+            { title: "От 1 до 10 часов", price: "150$", subtitle: "/ час" },
+            { title: "От 10 часов", price: "100$", subtitle: " / час" },
+        ]
     }
 };

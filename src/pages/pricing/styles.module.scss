@@ -1,0 +1,59 @@
+@use '../../styles/variables' as vars;
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 384px 1fr;
+  gap: var(--spacing-24);
+  grid-template-areas: "first second"
+}
+
+.titleContainer {
+  grid-area: first;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  grid-area: first;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  grid-area: second;
+}
+
+.priceCardsContainer {
+  min-width: 100%;
+  margin-top: 48px;
+}
+
+.companyContainer {
+  margin-top: auto;
+}
+
+@media screen and (max-width: #{vars.$mobile}) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .titleContainer {
+    margin-bottom: 8px;
+  }
+
+  .firstContainer {
+    width: auto;
+    order: 2;
+  }
+
+  .secondContainer {
+    order: 1;
+    margin-bottom: 80px;
+  }
+
+  .priceCardsContainer {
+    margin-top: 24px;
+  }
+}

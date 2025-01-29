@@ -1,0 +1,55 @@
+@use '../../../styles/variables' as vars;
+
+.fullCardContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+}
+
+.pricesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+}
+
+.childrenContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.pricePartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pricePartSubcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.priceSubtitleContainer {
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: #{vars.$mobile}) {
+  .fullCardContainer {
+    padding: 24px;
+    flex-direction: column;
+  }
+
+  .pricesContainer {
+    gap: 24px;
+  }
+
+  .childrenContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 24px;
+  }
+}

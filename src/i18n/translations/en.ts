@@ -152,5 +152,20 @@ export const en: LocalizedStrings = {
                 "url": "https://habr.com/en/articles/269741/"
             }
         ]
+    },
+    pricingPage: {
+        title: "Prices",
+        individualTitle: "Individual",
+        companyTitle: "Companies",
+        individualPrices: [
+            { title: "Introductory Session", price: "Free" },
+            { title: "1 Session", price: "$50", subtitle: " / hour" },
+            { title: "5 Sessions — $225", price: "$45", subtitle: " / hour" },
+            { title: "10 Sessions — $400", price: "$40", subtitle: " / hour" }
+        ],
+        companyPrices: [
+            { title: "From 1 to 10 hours", price: "$150", subtitle: " / hour" },
+            { title: "From 10 hours", price: "$100", subtitle: " / hour" }
+        ]
     }
 };

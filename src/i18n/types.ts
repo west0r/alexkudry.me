@@ -48,5 +48,20 @@ export interface LocalizedStrings {
             "source": string
             "url": string
         }]
+    },
+    pricingPage: {
+        title: string
+        individualTitle: string
+        companyTitle: string
+        individualPrices: [{
+            title: string
+            price: string
+            subtitle?: string
+        }]
+        companyPrices: [{
+            title: string
+            price: string
+            subtitle?: string
+        }]
     }
 }
