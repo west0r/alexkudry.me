@@ -25,15 +25,31 @@ export const ru: LocalizedStrings = {
         job: "КПТ коуч для IT специалистов",
         aboutTitle: "Обо мне",
         aboutDescription: "Привет, я Алексей Кудрявцев. В IT с 2014, в менеджменте с 2019, в консалтинге с 2021. Сейчас я Engineering Manager команды CI/CD мобильных приложений в inDrive.\n\n За моими плечами: сильный технический бекграунд, опыт работы в Авито и inDrive, руководство конференциями Mobius и Podlodka Crew, проекты по перестройке инженерной культуры в крупных компаниях.\n\nМой багаж опыта помогает инженерам и тимлидам справляться со стрессом, профессиональными вызовами и выстраивать устойчивые рабочие подходы для долгосрочного результата. Я помогаю тем, кто хочет достигать своих целей в работе и карьере, опираясь на проверенные и эффективные методы, а не карго-культы.",
+        requestsTitle: "С чем работаю",
+        problem: "Проблема",
+        resolution: "Решение",
+    },
+    libraryPage: {
+        talksHeader: "Выступления",
+        articlesHeader: "Статьи",
+    },
+    pricingPage: {
+        title: "Цены",
+        individualTitle: "Индивидуально",
+        companyTitle: "Компаниям",
+    },
+    skillsPage: {
+        skillsHeader: "Навыки",
+        educationHeader: "Образование",
+        coursesHeader: "Курсы",
+    },
+    content: {
         facts: [
             {title: "500+", description: "Часов обучения менеджменту и коучингу"},
             {title: "250+", description: "Часов личной психотерапии"},
             {title: "150+", description: "Часов консультаций клиентов"},
             {title: "10+", description: "Лет в сфере IT"},
         ],
-        requestsTitle: "С чем работаю",
-        problem: "Проблема",
-        resolution: "Решение",
         requests: [
             {
                 problem: "Неопределенность или тупик на карьерном пути. Непонятно куда, как и зачем развиваться",
@@ -64,10 +80,6 @@ export const ru: LocalizedStrings = {
                 resolution: "Помогу выстроить культуру, внедрить практики Code review, тестирования, Extreme Programming, DevOps"
             },
         ],
-    },
-    libraryPage: {
-        talksHeader: "Выступления",
-        articlesHeader: "Статьи",
         talks: [
             {
                 "title": "Серебрянная Пуля Эффективности",
@@ -151,12 +163,7 @@ export const ru: LocalizedStrings = {
                 "source": "Habr",
                 "url": "https://habr.com/en/articles/269741/"
             }
-        ]
-    },
-    pricingPage: {
-        title: "Цены",
-        individualTitle: "Индивидуально",
-        companyTitle: "Компаниям",
+        ],
         individualPrices: [
             {title: "Вводная сессия", price: "Бесплатно"},
             {title: "1 сессия", price: "50$", subtitle: " / час"},
@@ -166,12 +173,7 @@ export const ru: LocalizedStrings = {
         companyPrices: [
             { title: "От 1 до 10 часов", price: "150$", subtitle: "/ час" },
             { title: "От 10 часов", price: "100$", subtitle: " / час" },
-        ]
-    },
-    skillsPage: {
-        skillsHeader: "Навыки",
-        educationHeader: "Образование",
-        coursesHeader: "Курсы",
+        ],
         skills: [
             {
                 "title": "Знание IT изнутри",

@@ -25,15 +25,31 @@ export const en: LocalizedStrings = {
         job: "CBT coach for IT specialists",
         aboutTitle: "Who I Am",
         aboutDescription: "Hi, I’m Alexey Kudryavtsev. I’ve been in IT since 2014, in management since 2019, and in consulting since 2021. Currently, I’m the Engineering Manager of the CI/CD mobile applications team at inDrive.\n\nI have a strong technical background, experience working at Avito and inDrive, leadership in conferences like Mobius and Podlodka Crew, and projects focused on transforming engineering culture in large companies.\n\nMy experience helps engineers and team leads handle stress, face professional challenges, and develop sustainable work approaches for long-term success. I assist those who want to achieve their goals at work and in their careers by relying on proven and effective methods rather than cargo cults.",
+        requestsTitle: "I work with",
+        problem: "Problem",
+        resolution: "Resolution",
+    },
+    libraryPage: {
+        talksHeader: "Talks",
+        articlesHeader: "Articles",
+    },
+    pricingPage: {
+        title: "Prices",
+        individualTitle: "Individual",
+        companyTitle: "Companies",
+    },
+    skillsPage: {
+        skillsHeader: "Skills",
+        educationHeader: "Education",
+        coursesHeader: "Courses",
+    },
+    content: {
         facts: [
             { title: "500+", description: "Hours of management and coaching training" },
             { title: "250+", description: "Hours of personal psychotherapy" },
             { title: "150+", description: "Hours of client consultations" },
             { title: "10+", description: "Years in the IT industry" },
         ],
-        requestsTitle: "I work with",
-        problem: "Problem",
-        resolution: "Resolution",
         requests: [
             {
                 problem: "Uncertainty or a dead end in your career path. You don’t know where, how, or why to grow",
@@ -64,10 +80,6 @@ export const en: LocalizedStrings = {
                 resolution: "I’ll help establish culture, implement practices like Code Review, testing, Extreme Programming, and DevOps"
             },
         ],
-    },
-    libraryPage: {
-        talksHeader: "Talks",
-        articlesHeader: "Articles",
         talks: [
             {
                 "title": "The Silver Bullet of Personal Efficiency (ru)",
@@ -151,12 +163,7 @@ export const en: LocalizedStrings = {
                 "source": "Habr",
                 "url": "https://habr.com/en/articles/269741/"
             }
-        ]
-    },
-    pricingPage: {
-        title: "Prices",
-        individualTitle: "Individual",
-        companyTitle: "Companies",
+        ],
         individualPrices: [
             { title: "Introductory Session", price: "Free" },
             { title: "1 Session", price: "$50", subtitle: " / hour" },
@@ -166,12 +173,7 @@ export const en: LocalizedStrings = {
         companyPrices: [
             { title: "From 1 to 10 hours", price: "$150", subtitle: " / hour" },
             { title: "From 10 hours", price: "$100", subtitle: " / hour" }
-        ]
-    },
-    skillsPage: {
-        skillsHeader: "Skills",
-        educationHeader: "Education",
-        coursesHeader: "Courses",
+        ],
         skills: [
             {
                 "title": "In-Depth IT Expertise",

@@ -18,7 +18,7 @@ export const LibraryPage: FC = () => {
                     header={<Text text={strings.libraryPage.talksHeader} size={"h1"} color={"primary"}></Text>}
                     footer={<ArrowButton {...presets.calendlySignUp} />}
                 >
-                    {Object.values(strings.libraryPage.talks).map(({title, source, url}) => (
+                    {Object.values(strings.content.talks).map(({title, source, url}) => (
                         <SimpleCardSmall
                             label={source}
                             title={title}
@@ -32,7 +32,7 @@ export const LibraryPage: FC = () => {
                     header={<Text text={strings.libraryPage.articlesHeader} size={"h1"} color={"primary"}></Text>}
                     footer={<ArrowButton {...presets.calendlySignUp} />}
                 >
-                    {Object.values(strings.libraryPage.articles).map(({title, source, url}) => (
+                    {Object.values(strings.content.articles).map(({title, source, url}) => (
                         <SimpleCardSmall
                             label={source}
                             title={title}

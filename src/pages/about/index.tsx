@@ -23,7 +23,7 @@ export const AboutPage: FC = () => {
                     title={strings.aboutPage.aboutTitle}
                     imageUrl={LINKS.AVATAR}
                     description={strings.aboutPage.aboutDescription}
-                    facts={strings.aboutPage.facts}>
+                    facts={strings.content.facts}>
                 </AboutCard>
 
                 <div className={styles.requests}>
@@ -36,7 +36,7 @@ export const AboutPage: FC = () => {
                     </div>
 
                     <div className={styles.requestsCards}>
-                        {Object.values(strings.aboutPage.requests).map(({problem, resolution}) => (
+                        {Object.values(strings.content.requests).map(({problem, resolution}) => (
                             <DualTextColumnsCard
                                 leftGroup={{label: strings.aboutPage.problem, title: problem}}
                                 rightGroup={{label: strings.aboutPage.resolution, title: resolution}}

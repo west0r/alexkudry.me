@@ -20,7 +20,7 @@ export const SkillsPage: FC = () => {
                     header={<Text text={strings.skillsPage.skillsHeader} size={"h1"} color={"primary"}></Text>}
                     footer={<ArrowButton {...presets.calendlySignUp} />}
                 >
-                    {Object.values(strings.skillsPage.skills).map(({title, description}) => (
+                    {Object.values(strings.content.skills).map(({title, description}) => (
                         <SimpleCardBig label={title} title={description}></SimpleCardBig>
                     ))}
                 </MasonryLayoutWrapper>
@@ -29,7 +29,7 @@ export const SkillsPage: FC = () => {
                     desktopColumnsCount={2}
                     header={<Text text={strings.skillsPage.educationHeader} size={"h1"} color={"primary"}></Text>}
                 >
-                    {Object.values(strings.skillsPage.educations).map(({school, name, date, url}) => (
+                    {Object.values(strings.content.educations).map(({school, name, date, url}) => (
                         <DatedCard
                             date={date}
                             title={school}
@@ -44,7 +44,7 @@ export const SkillsPage: FC = () => {
                     header={<Text text={strings.skillsPage.coursesHeader} size={"h1"} color={"secondary"}></Text>}
                     footer={<ArrowButton {...presets.calendlySignUp} />}
                 >
-                    {Object.values(strings.skillsPage.courses).map(({school, name, date, url}) => (
+                    {Object.values(strings.content.courses).map(({school, name, date, url}) => (
                         <DatedCard
                             date={date}
                             title={school}

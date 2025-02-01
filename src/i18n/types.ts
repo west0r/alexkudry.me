@@ -23,21 +23,33 @@ export interface LocalizedStrings {
         job: string
         aboutTitle: string
         aboutDescription: string
-        facts: [{
-            title: string
-            description: string
-        }]
         requestsTitle: string
         problem: string
         resolution: string
-        requests: [{
-            problem: string
-            resolution: string
-        }]
     },
     libraryPage: {
         talksHeader: string
         articlesHeader: string
+    },
+    pricingPage: {
+        title: string
+        individualTitle: string
+        companyTitle: string
+    },
+    skillsPage: {
+        skillsHeader: string
+        educationHeader: string
+        coursesHeader: string
+    }
+    content: {
+        facts: [{
+            title: string
+            description: string
+        }]
+        requests: [{
+            problem: string
+            resolution: string
+        }]
         talks: [{
             "title": string
             "source": string
@@ -48,11 +60,6 @@ export interface LocalizedStrings {
             "source": string
             "url": string
         }]
-    },
-    pricingPage: {
-        title: string
-        individualTitle: string
-        companyTitle: string
         individualPrices: [{
             title: string
             price: string
@@ -63,11 +70,6 @@ export interface LocalizedStrings {
             price: string
             subtitle?: string
         }]
-    },
-    skillsPage: {
-        skillsHeader: string
-        educationHeader: string
-        coursesHeader: string
         skills: [{
             title: string
             description: string

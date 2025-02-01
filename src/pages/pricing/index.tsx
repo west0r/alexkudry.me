@@ -20,7 +20,7 @@ export const PricingPage: FC = () => {
                     <div className={styles.companyContainer}>
                         <Text text={strings.pricingPage.companyTitle} size={"h1"} color={"secondary"}></Text>
                         <div className={styles.priceCardsContainer}>
-                            <PriceCard prices={strings.pricingPage.companyPrices}></PriceCard>
+                            <PriceCard prices={strings.content.companyPrices}></PriceCard>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export const PricingPage: FC = () => {
 
                     <div className={styles.priceCardsContainer}>
                         <PriceCard
-                            prices={ strings.pricingPage.individualPrices }
+                            prices={ strings.content.individualPrices }
                             children={<ArrowButton {...presets.calendlySignUp} />}
                         ></PriceCard>
                     </div>
