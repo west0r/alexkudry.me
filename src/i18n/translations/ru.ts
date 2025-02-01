@@ -167,5 +167,106 @@ export const ru: LocalizedStrings = {
             { title: "От 1 до 10 часов", price: "150$", subtitle: "/ час" },
             { title: "От 10 часов", price: "100$", subtitle: " / час" },
         ]
+    },
+    skillsPage: {
+        skillsHeader: "Навыки",
+        educationHeader: "Образование",
+        coursesHeader: "Курсы",
+        skills: [
+            {
+                "title": "Знание IT изнутри",
+                "description": "В отличие от экспертов из вне, я прошёл долгий путь в IT, а поэтому знаю сложности, с которыми сталкиваются разработчики и руководители в индустрии"
+            },
+            {
+                "title": "Коучинг по стандартам ICF",
+                "description": "Помогаю находить собственные решения и развивать навыки через эффективные техники и правильные вопросы"
+            },
+            {
+                "title": "Методы КПТ",
+                "description": "Использую элементы психотерапии для работы с негативными убеждениями, когнитивными ошибками и самосаботажем"
+            },
+            {
+                "title": "Тайм-менеджмент",
+                "description": "Применяю инструменты целеполагания и управления временем, чтобы управлять рабочей нагрузкой и повысить продуктивность"
+            },
+            {
+                "title": "Развитие конструктивных коммуникаций",
+                "description": "Развиваю навыки общения, чтобы выстроить эффективные и здоровые рабочие отношения"
+            }
+        ],
+        educations: [
+            {
+                school: "СПбАУ РАН им. Ж.И. Алфёрова",
+                name: "Информационные технологии (проф. переподготовка с отличием)",
+                date: "09.2015 - 06.2016 (1500 часов)",
+                url: "https://drive.google.com/file/d/1p11QVlnYs677LMk8pLOc4ryM-EQEvPvN/view?usp=sharing"
+            },
+            {
+                school: "Университет Синергия",
+                name: "Менеджмент в социокультурной сфере (специалитет)",
+                date: "2011 - 2015 (4000 часов)",
+                url: "https://drive.google.com/file/d/1b-t-Wpot4sOkmlt8U4GKX-MtdfZrDPip/view"
+            }
+        ],
+        courses: [
+            {
+                school: "Soft Skills Lab",
+                name: "Осознанные коммуникации",
+                date: "01.09.2024 - 16.01.2025 (50 часов)",
+            },
+            {
+                school: "Московский Институт Психоанализа",
+                name: "Когнитивно-поведенческая психотерапия",
+                date: "01.08.2024 - 29.11.2024 (140 часов)",
+                url: "https://drive.google.com/file/d/1XO3UNMVXC7TPjBkrxpqumlfe7vl9BioW/view?usp=share_link"
+            },
+            {
+                school: "Erickson International University",
+                name: "The Art & Science of Coaching (ICF ACSTH)",
+                date: "19.05.2022 - 28.08.2022 (150 часов)",
+                url: "https://drive.google.com/file/d/1ZVoB9SfjU0Yfrwi39_ziXa9NAMwDyEbe/view?usp=sharing"
+            },
+            {
+                school: "Школа Менеджмента Stratoplan",
+                name: "Управление командой | Тимлид",
+                date: "07.2020 - 01.2021 (200 часов)",
+                url: "https://drive.google.com/file/d/1S6N2VCgxUL4nzLNXbwnwv6YF6N-3ckZ2/view?usp=sharing"
+            },
+            {
+                school: "GoPractice",
+                name: "Симулятор продакт менеджера",
+                date: "03.2020 - 04.2020 (50 часов)",
+                url: "https://drive.google.com/file/d/1A0d1hLVFZAuoXmQ9r7GXvT4fMWH-MA2s/view?usp=sharing"
+            },
+            {
+                school: "Школа сильных програмистов",
+                name: "Developer Experience",
+                date: "20.12.2024 (5 часов)",
+                url: "https://drive.google.com/file/d/1p130CV8nsPCPgkq74ivLotbstsZ_yFF9/view?usp=share_link"
+            },
+            {
+                school: "Kanban University",
+                name: "Kanban Management Professional",
+                date: "03.2024 (16 часов)",
+                url: "https://drive.google.com/file/d/1P3CbJfowO340-yB-G39qczf582R2IssQ/view?usp=share_link"
+            },
+            {
+                school: "Алексей Таченков",
+                name: "Основы управления проектами",
+                date: "11.2020 (24 часа)",
+                url: "https://drive.google.com/file/d/1lugXxt1cexv-M9Y_tdzHBtfI2kks3qT8/view?usp=sharing"
+            },
+            {
+                school: "Бюро Глагол",
+                name: "Выступление как продукт",
+                date: "02.2020 (16 часов)",
+                url: "https://drive.google.com/file/d/1QqZqm5Aoo86FN4k45r43CBxP-CmKEBZT/view?usp=sharing"
+            },
+            {
+                school: "Максим Дорофеев",
+                name: "Джедайские Техники: когнитивная продуктивность и управление вниманием ",
+                date: "03.2019 (16 часов)"
+            }
+        ]
     }
 };

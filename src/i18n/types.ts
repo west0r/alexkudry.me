@@ -63,5 +63,26 @@ export interface LocalizedStrings {
             price: string
             subtitle?: string
         }]
+    },
+    skillsPage: {
+        skillsHeader: string
+        educationHeader: string
+        coursesHeader: string
+        skills: [{
+            title: string
+            description: string
+        }]
+        educations: [{
+            school: string
+            name: string
+            date: string
+            url?: string
+        }]
+        courses: [{
+            school: string
+            name: string
+            date: string
+            url?: string
+        }]
     }
 }

@@ -167,5 +167,106 @@ export const en: LocalizedStrings = {
             { title: "From 1 to 10 hours", price: "$150", subtitle: " / hour" },
             { title: "From 10 hours", price: "$100", subtitle: " / hour" }
         ]
+    },
+    skillsPage: {
+        skillsHeader: "Skills",
+        educationHeader: "Education",
+        coursesHeader: "Courses",
+        skills: [
+            {
+                "title": "In-Depth IT Expertise",
+                "description": "Unlike external consultants, I’ve had a long journey in the IT industry, which gives me a deep understanding of the challenges faced by developers and managers."
+            },
+            {
+                "title": "ICF-Standard Coaching",
+                "description": "I help clients find their own solutions and develop skills through effective techniques and powerful questioning, following ICF coaching standards."
+            },
+            {
+                "title": "Cognitive Behavioral Techniques (CBT)",
+                "description": "I apply elements of cognitive-behavioral therapy to address negative beliefs, cognitive biases, and self-sabotaging behaviors."
+            },
+            {
+                "title": "Time Management",
+                "description": "I use goal-setting and time management tools to help optimize workload, improve focus, and boost productivity."
+            },
+            {
+                "title": "Constructive Communication Development",
+                "description": "I help build strong communication skills to foster effective, healthy, and productive workplace relationships."
+            }
+        ],
+        educations: [
+            {
+                school: "St. Petersburg Zh.I. Alferov Academic University",
+                name: "Information Technology  (Professional Retraining Diploma with Honors)",
+                date: "09.2015 - 06.2016 (1500 hours)",
+                url: "https://drive.google.com/file/d/1p11QVlnYs677LMk8pLOc4ryM-EQEvPvN/view?usp=sharing"
+            },
+            {
+                school: "Synergy University",
+                name: "Business Administration and Management (Master’s Equivalent Degree)",
+                date: "2011 - 2015 (4000 hours)",
+                url: "https://drive.google.com/file/d/1b-t-Wpot4sOkmlt8U4GKX-MtdfZrDPip/view"
+            }
+        ],
+        courses: [
+            {
+                school: "Soft Skills Lab",
+                name: "Conscious Communications",
+                date: "01.09.2024 - 16.01.2025 (50 hours)",
+            },
+            {
+                school: "Moscow Institute of Psychoanalysis",
+                name: "Cognitive Behavioral Therapy",
+                date: "01.08.2024 - 29.11.2024 (140 hours)",
+                url: "https://drive.google.com/file/d/1XO3UNMVXC7TPjBkrxpqumlfe7vl9BioW/view?usp=share_link"
+            },
+            {
+                school: "Erickson International University",
+                name: "The Art & Science of Coaching (ICF ACSTH)",
+                date: "19.05.2022 - 28.08.2022 (150 hours)",
+                url: "https://drive.google.com/file/d/1ZVoB9SfjU0Yfrwi39_ziXa9NAMwDyEbe/view?usp=sharing"
+            },
+            {
+                school: "Stratoplan Management School",
+                name: "Team Management | Team Lead",
+                date: "07.2020 - 01.2021 (200 hours)",
+                url: "https://drive.google.com/file/d/1S6N2VCgxUL4nzLNXbwnwv6YF6N-3ckZ2/view?usp=sharing"
+            },
+            {
+                school: "GoPractice School",
+                name: "Data-Driven Product Management Simulator",
+                date: "03.2020 - 04.2020 (50 hours)",
+                url: "https://drive.google.com/file/d/1A0d1hLVFZAuoXmQ9r7GXvT4fMWH-MA2s/view?usp=sharing"
+            },
+            {
+                school: "Tough Dev School",
+                name: "Developer Experience",
+                date: "20.12.2024 (5 hours)",
+                url: "https://drive.google.com/file/d/1p130CV8nsPCPgkq74ivLotbstsZ_yFF9/view?usp=share_link"
+            },
+            {
+                school: "Kanban University",
+                name: "Kanban Management Professional",
+                date: "03.2024 (16 hours)",
+                url: "https://drive.google.com/file/d/1P3CbJfowO340-yB-G39qczf582R2IssQ/view?usp=share_link"
+            },
+            {
+                school: "Alexey Tachenko",
+                name: "Project Management Basics",
+                date: "11.2020 (24 hours)",
+                url: "https://drive.google.com/file/d/1lugXxt1cexv-M9Y_tdzHBtfI2kks3qT8/view?usp=sharing"
+            },
+            {
+                school: "Glagol Bureau",
+                name: "Presentation as a Product",
+                date: "02.2020 (16 hours)",
+                url: "https://drive.google.com/file/d/1QqZqm5Aoo86FN4k45r43CBxP-CmKEBZT/view?usp=sharing"
+            },
+            {
+                school: "Maxim Dorofeev",
+                name: "Jedi Techniques: Productivity and Attention Management",
+                date: "03.2019 (16 hours)"
+            }
+        ]
     }
 };
