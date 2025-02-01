@@ -5,14 +5,14 @@ export const en: LocalizedStrings = {
         signUp: "Book a consultation",
         menu: {
             about: "Alex Kudry",
-            skills: "Skills & Education",
+            skills: "Expertise",
             pricing: "Pricing",
-            articles: "Articles & Talks"
+            articles: "Articles & Publications"
         }
     },
     footer: {
         contact: {
-            label: "Text me in",
+            label: "Contact me",
             name: "Telegram",
         },
         channel: {
@@ -24,7 +24,7 @@ export const en: LocalizedStrings = {
         name: "Alex Kudry",
         job: "CBT coach for IT specialists",
         aboutTitle: "Who I Am",
-        aboutDescription: "Hi, I’m Alexey Kudryavtsev. I’ve been in IT since 2014, in management since 2019, and in consulting since 2021. Currently, I’m the Engineering Manager of the CI/CD mobile applications team at inDrive.\n\nI have a strong technical background, experience working at Avito and inDrive, leadership in conferences like Mobius and Podlodka Crew, and projects focused on transforming engineering culture in large companies.\n\nMy experience helps engineers and team leads handle stress, face professional challenges, and develop sustainable work approaches for long-term success. I assist those who want to achieve their goals at work and in their careers by relying on proven and effective methods rather than cargo cults.",
+        aboutDescription: `Hi, I’m Alex Kudry\n\nI’ve been in IT since 2014, in management since 2019, and in consulting since 2021. Currently, I’m the Engineering Manager of the CI/CD mobile applications team at inDrive.\n\nI have a strong technical background, with experience at Avito and inDrive, leadership roles at conferences like Mobius and Podlodka Crew, and projects focused on transforming engineering cultures in large companies.\n\nMy experience helps engineers and team leads manage stress, overcome professional challenges, and build sustainable work practices for long-term success. I help those who want to achieve their career goals through proven, effective methods—not by following trends.`,
         requestsTitle: "I work with",
         problem: "Problem",
         resolution: "Resolution",
@@ -35,8 +35,8 @@ export const en: LocalizedStrings = {
     },
     pricingPage: {
         title: "Prices",
-        individualTitle: "Individual",
-        companyTitle: "Companies",
+        individualTitle: "Individual Sessions",
+        companyTitle: "For Companies",
     },
     skillsPage: {
         skillsHeader: "Skills",
@@ -45,39 +45,35 @@ export const en: LocalizedStrings = {
     },
     content: {
         facts: [
-            { title: "500+", description: "Hours of management and coaching training" },
-            { title: "250+", description: "Hours of personal psychotherapy" },
-            { title: "150+", description: "Hours of client consultations" },
-            { title: "10+", description: "Years in the IT industry" },
+            { title: "10+", description: "Years in\nthe IT industry" },
+            { title: "500+", description: "Hours of\nlearning and training" },
+            { title: "150+", description: "Hours of\nclient consultations" },
+            { title: "250+", description: "Hours of\npersonal therapy" },
         ],
         requests: [
             {
-                problem: "Uncertainty or a dead end in your career path. You don’t know where, how, or why to grow",
-                resolution: "We’ll create a working development plan based on your goals and values"
+                problem: "Feeling stuck in your career? Unsure about which direction to take?",
+                resolution: "Let’s design a tailored development plan based on your goals and values."
             },
             {
-                problem: "Lack of confidence in your professionalism, imposter syndrome, perfectionism, burnout",
-                resolution: "We’ll address destructive patterns without judgment"
+                problem: "Struggling with self-doubt, imposter syndrome, perfectionism, or burnout?",
+                resolution: "We tackle destructive patterns head-on—no judgment, just effective solutions."
             },
             {
-                problem: "You’ve become a team lead, but everything is on fire and falling apart",
-                resolution: "We’ll figure out what it means to be a leader, what the company expects from you, and how to get there as quickly as possible"
+                problem: "New to team leadership and feeling overwhelmed?",
+                resolution: "We’ll clarify what leadership really means, define what your company expects, and map out the fastest path forward."
             },
             {
-                problem: "You’re job hunting but know you can get a better offer",
-                resolution: "We’ll polish your resume, fine-tune your skills, and learn how to present yourself in interviews"
+                problem: "Are your projects and tasks stuck, leading to mounting frustration?",
+                resolution: "We’ll break down current challenges, ignite your motivation, and build a clear action plan."
             },
             {
-                problem: "A project or task isn’t progressing, leading to frustration",
-                resolution: "We’ll break down the current issues, find motivation, and build a plan for implementation"
+                problem: "Is your team underperforming or missing deadlines?",
+                resolution: "I’ll help pinpoint weak spots and implement robust processes to boost consistency."
             },
             {
-                problem: "Your team is delivering inconsistent or insufficient results and missing commitments",
-                resolution: "I’ll help identify weak spots and establish processes to address them"
-            },
-            {
-                problem: "Low engineering culture, poor product and code quality, everything keeps breaking",
-                resolution: "I’ll help establish culture, implement practices like Code Review, testing, Extreme Programming, and DevOps"
+                problem: "Struggling with a weak engineering culture and poor product quality?",
+                resolution: "I’ll guide you in cultivating a strong culture and adopting best practices like Code Reviews, testing, Extreme Programming, and DevOps."
             },
         ],
         talks: [
@@ -176,24 +172,24 @@ export const en: LocalizedStrings = {
         ],
         skills: [
             {
-                "title": "In-Depth IT Expertise",
-                "description": "Unlike external consultants, I’ve had a long journey in the IT industry, which gives me a deep understanding of the challenges faced by developers and managers."
+                title: "In-Depth IT Expertise",
+                description: "I’ve walked the long road in IT, so I truly understand the challenges developers and managers face."
             },
             {
-                "title": "ICF-Standard Coaching",
-                "description": "I help clients find their own solutions and develop skills through effective techniques and powerful questioning, following ICF coaching standards."
+                title: "ICF-Standard Coaching",
+                description: "I help you discover your own solutions and develop skills using proven, effective techniques."
             },
             {
-                "title": "Cognitive Behavioral Techniques (CBT)",
-                "description": "I apply elements of cognitive-behavioral therapy to address negative beliefs, cognitive biases, and self-sabotaging behaviors."
+                title: "Cognitive Behavioral Techniques (CBT)",
+                description: "I apply elements of CBT to overcome negative beliefs, cognitive biases, and self-sabotage."
             },
             {
-                "title": "Time Management",
-                "description": "I use goal-setting and time management tools to help optimize workload, improve focus, and boost productivity."
+                title: "Time Management",
+                description: "I use goal-setting and time management tools to optimize your workload and boost productivity."
             },
             {
-                "title": "Constructive Communication Development",
-                "description": "I help build strong communication skills to foster effective, healthy, and productive workplace relationships."
+                title: "Constructive Communication",
+                description: "I help you build strong communication skills for healthier, more productive workplace relationships."
             }
         ],
         educations: [
