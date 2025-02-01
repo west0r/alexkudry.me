@@ -32,9 +32,9 @@ export const AnyPageWrapper: FC<PropsWithChildren> = ({ children }) => {
                 ))}
             </Header>
 
-            <main className={styles.content}>
-                {children}
-            </main>
+            <div className={styles.minMarginContainer}>
+                <main className={styles.content}>{children}</main>
+            </div>
 
             <Footer links={[
                 {

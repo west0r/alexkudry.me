@@ -1,26 +1,32 @@
 @use '../../styles/variables' as vars;
 
 .wrapper {
+  min-width: 100vw;
+  width: max-content;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   background: var(--color-bg-primary);
 }
 
-.content {
-  flex: 1;
-  min-width: 1500px;
-  max-width: 1500px;
-  margin: 200px auto 80px;
-  padding: 0 var(--spacing-120);
+.minMarginContainer {
+  margin: 0 8px;
 }
 
-/* Desktop styles */
+.content {
+  flex: 1;
+  width: 1200px;
+  margin: 200px auto 80px;
+}
+
 @media screen and (max-width: #{vars.$mobile}) {
+  .wrapper {
+    width: 100vw;
+  }
+
   .content {
     min-width: 100%;
     max-width: 100%;
     margin: 100px auto 56px;
-    padding: 0 var(--spacing-8);
   }
 }
