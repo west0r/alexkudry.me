@@ -6,6 +6,8 @@ import {AboutCard} from "../../components/cards/aboutCard";
 import {DualTextColumnsCard} from "../../components/cards/dualTextColumnsCard";
 import {strings} from "../../i18n/i18n.ts";
 import { LINKS } from '../../constants/strings.ts'
+import ArrowButton from "../../atoms/arrowButton";
+import {presets} from "../../constants/presets.ts";
 
 export const AboutPage: FC = () => {
 
@@ -25,12 +27,12 @@ export const AboutPage: FC = () => {
                 </AboutCard>
 
                 <div className={styles.requests}>
-                    <div className={styles.requestsLeftContainer}>
+                    <div className={styles.requestsTitle}>
                         <Text text={strings.aboutPage.requestsTitle} size={"h1"} color={"primary"}></Text>
+                    </div>
 
-                        <div className={styles.signUp}>
-
-                        </div>
+                    <div className={styles.signUp}>
+                        <ArrowButton {...presets.calendlySignUp} />
                     </div>
 
                     <div className={styles.requestsCards}>

@@ -19,8 +19,9 @@
   align-items: start;
 }
 
-.requestsLeftContainer {
+.requestsTitle {
   display: contents;
+  width: 100%;
 }
 
 .requestsCards {
@@ -33,6 +34,7 @@
 
 .signUp {
   display: block;
+  grid-column: 1;
   grid-row: 2;
 }
 
@@ -51,11 +53,6 @@
     gap: var(--spacing-24);
   }
 
-  .requestsLeftContainer {
-    display: flex;
-    min-width: 0px;
-  }
-
   .signUp {
     display: none;
   }
@@ -65,11 +62,4 @@
     flex-direction: column;
     gap: var(--spacing-8);
   }
-}
-
-.requestsLeftContainer {
-  display: flex;
-  flex-direction: column;
-  min-width: 384px;
-  gap: 52px;
 }
