@@ -40,6 +40,20 @@ export const LibraryPage: FC = () => {
                         ></SimpleCardSmall>
                     ))}
                 </MasonryLayoutWrapper>
+
+                <MasonryLayoutWrapper
+                    desktopColumnsCount={2}
+                    header={<Text text={strings.libraryPage.artifactsHeader} size={"h1"} color={"primary"}></Text>}
+                    footer={<ArrowButton {...presets.calendlySignUp} />}
+                >
+                    {Object.values(strings.content.artifacts).map(({title, source, url}) => (
+                        <SimpleCardSmall
+                            label={source}
+                            title={title}
+                            onTitleClick={() => window.open(url)}
+                        ></SimpleCardSmall>
+                    ))}
+                </MasonryLayoutWrapper>
             </div>
         </AnyPageWrapper>
 

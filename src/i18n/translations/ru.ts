@@ -32,6 +32,7 @@ export const ru: LocalizedStrings = {
     libraryPage: {
         talksHeader: "Выступления",
         articlesHeader: "Статьи",
+        artifactsHeader: "Материалы",
     },
     pricingPage: {
         title: "Цены",
@@ -159,6 +160,18 @@ export const ru: LocalizedStrings = {
                 "source": "Habr",
                 "url": "https://habr.com/en/articles/269741/"
             }
+        ],
+        artifacts: [
+            {
+                "title": "Фреймворк составления ИПР для разработчиков",
+                "source": "Notion",
+                "url": "https://west0r.notion.site/859a668753194e9d987877ea944c98f2?pvs=4"
+            },
+            {
+                "title": "Материалы по целеполаганию и продуктивности",
+                "source": "Notion",
+                "url": "https://west0r.notion.site/e2859cda19f047fba30a370e931c62f7?pvs=4"
+            },
         ],
         individualPrices: [
             {title: "Вводная сессия", price: "Бесплатно"},

@@ -30,6 +30,7 @@ export interface LocalizedStrings {
     libraryPage: {
         talksHeader: string
         articlesHeader: string
+        artifactsHeader: string
     },
     pricingPage: {
         title: string
@@ -56,6 +57,11 @@ export interface LocalizedStrings {
             "url": string
         }]
         articles: [{
+            "title": string
+            "source": string
+            "url": string
+        }]
+        artifacts: [{
             "title": string
             "source": string
             "url": string

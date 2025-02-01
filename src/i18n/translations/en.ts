@@ -32,6 +32,7 @@ export const en: LocalizedStrings = {
     libraryPage: {
         talksHeader: "Talks",
         articlesHeader: "Articles",
+        artifactsHeader: "Resources",
     },
     pricingPage: {
         title: "Prices",
@@ -159,6 +160,18 @@ export const en: LocalizedStrings = {
                 "source": "Habr",
                 "url": "https://habr.com/en/articles/269741/"
             }
+        ],
+        artifacts: [
+            {
+                title: "Framework for Developers' Individual Development Plans (ru)",
+                source: "Notion",
+                url: "https://west0r.notion.site/859a668753194e9d987877ea944c98f2?pvs=4"
+            },
+            {
+                title: "Materials on Goal Setting and Productivity (ru)",
+                source: "Notion",
+                url: "https://west0r.notion.site/e2859cda19f047fba30a370e931c62f7?pvs=4"
+            },
         ],
         individualPrices: [
             { title: "Introductory Session", price: "Free" },
