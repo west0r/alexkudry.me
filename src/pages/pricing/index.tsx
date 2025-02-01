@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 import {strings} from "../../i18n/i18n.ts";
 import {PriceCard} from "../../components/cards/pricesCard";
 import ArrowButton from "../../atoms/arrowButton";
-import {LINKS} from "../../constants/strings.ts";
+import {presets} from "../../constants/presets.ts";
 
 export const PricingPage: FC = () => {
     return (
@@ -31,12 +31,7 @@ export const PricingPage: FC = () => {
                     <div className={styles.priceCardsContainer}>
                         <PriceCard
                             prices={ strings.pricingPage.individualPrices }
-                            children={
-                                <ArrowButton
-                                    text={strings.header.signUp}
-                                    onClick={() => window.open(LINKS.CALENDLY)}
-                                />
-                            }
+                            children={<ArrowButton {...presets.calendlySignUp} />}
                         ></PriceCard>
                     </div>
                 </div>
