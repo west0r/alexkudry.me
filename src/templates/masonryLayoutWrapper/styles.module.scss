@@ -1,0 +1,52 @@
+@use '../../styles/variables' as vars;
+
+:export {
+  mobileBreakpoint: var(vars.$mobile);
+  mobileColumns: 1
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.masonryContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 24px;
+  width: 100%;
+}
+
+.masonryWrapper {
+  position: relative;
+}
+
+.fixedFooter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.masonryColumn > div {
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: #{vars.$mobile}) {
+  .mainContainer {
+    gap: 24px;
+  }
+
+  .masonryContainer {
+    gap: 8px;
+  }
+
+  .masonryColumn > div {
+    margin-bottom: 8px;
+  }
+}
