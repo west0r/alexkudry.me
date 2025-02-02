@@ -22,7 +22,7 @@ export const en: LocalizedStrings = {
     },
     aboutPage: {
         name: "Alex Kudry",
-        job: "Fixing mind-bugs for engineering minds",
+        job: "Fixing brain-bugs for engineering minds",
         aboutTitle: "Who I Am",
         aboutDescription: `Hi, I’m Alex Kudry\n\nI’ve been in IT since 2014, in management since 2019, and in consulting since 2021. Currently, I’m the Engineering Manager of the CI/CD mobile applications team at inDrive.\n\nI have a strong technical background, with experience at Avito and inDrive, leadership roles at conferences like Mobius and Podlodka Crew, and projects focused on transforming engineering cultures in large companies.\n\nMy experience helps engineers and team leads manage stress, overcome professional challenges, and build sustainable work practices for long-term success. I help those who want to achieve their career goals through proven, effective methods—not by following trends.`,
         requestsTitle: "I work with",
@@ -53,28 +53,36 @@ export const en: LocalizedStrings = {
         ],
         requests: [
             {
-                problem: "Feeling stuck in your career? Unsure about which direction to take?",
-                resolution: "Let’s design a tailored development plan based on your goals and values."
+                problem: "Feeling stuck in your career? Unsure which direction to take?",
+                resolution: "We'll create a personalized development plan based on your unique goals and values."
             },
             {
-                problem: "Struggling with self-doubt, imposter syndrome, perfectionism, or burnout?",
-                resolution: "We tackle destructive patterns head-on—no judgment, just effective solutions."
+                problem: "Struggling with self-doubt, imposter syndrome, or burnout?",
+                resolution: "We'll tackle destructive patterns and help you find your footing."
             },
             {
-                problem: "New to team leadership and feeling overwhelmed?",
-                resolution: "We’ll clarify what leadership really means, define what your company expects, and map out the fastest path forward."
+                problem: "Are your projects and tasks stuck, causing rising frustration?",
+                resolution: "We'll analyze the issues, reignite your motivation, and develop a clear action plan."
             },
             {
-                problem: "Are your projects and tasks stuck, leading to mounting frustration?",
-                resolution: "We’ll break down current challenges, ignite your motivation, and build a clear action plan."
+                problem: "Having trouble communicating with colleagues or management, or facing conflicts?",
+                resolution: "We'll assess the situation and set up effective communication strategies to help you reach your goals."
             },
             {
-                problem: "Is your team underperforming or missing deadlines?",
-                resolution: "I’ll help pinpoint weak spots and implement robust processes to boost consistency."
+                problem: "Started leading a team, but everything seems to be falling apart?",
+                resolution: "We'll define what leadership truly means, clarify company expectations, and chart a path to success."
             },
             {
-                problem: "Struggling with a weak engineering culture and poor product quality?",
-                resolution: "I’ll guide you in cultivating a strong culture and adopting best practices like Code Reviews, testing, Extreme Programming, and DevOps."
+                problem: "Is your team struggling to meet tasks or constantly missing deadlines?",
+                resolution: "We'll identify the weak spots and build robust processes to boost efficiency."
+            },
+            {
+                problem: "Facing low engineering culture and product quality issues?",
+                resolution: "We'll establish a strong culture and implement top DevEx practices without compromising business results."
+            },
+            {
+                problem: "Didn't see your challenge listed?",
+                resolution: "Drop me a line, and we'll come up with tailored solutions based on my experience."
             },
         ],
         talks: [
