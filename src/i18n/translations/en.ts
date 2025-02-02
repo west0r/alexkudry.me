@@ -22,7 +22,7 @@ export const en: LocalizedStrings = {
     },
     aboutPage: {
         name: "Alex Kudry",
-        job: "CBT coach for IT specialists",
+        job: "Fixing mind-bugs for engineering minds",
         aboutTitle: "Who I Am",
         aboutDescription: `Hi, I’m Alex Kudry\n\nI’ve been in IT since 2014, in management since 2019, and in consulting since 2021. Currently, I’m the Engineering Manager of the CI/CD mobile applications team at inDrive.\n\nI have a strong technical background, with experience at Avito and inDrive, leadership roles at conferences like Mobius and Podlodka Crew, and projects focused on transforming engineering cultures in large companies.\n\nMy experience helps engineers and team leads manage stress, overcome professional challenges, and build sustainable work practices for long-term success. I help those who want to achieve their career goals through proven, effective methods—not by following trends.`,
         requestsTitle: "I work with",
